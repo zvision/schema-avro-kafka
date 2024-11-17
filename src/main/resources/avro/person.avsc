@@ -1,0 +1,10 @@
+{
+	"namespace": "com.se.alaf.kafka.app.model",
+	"type": "record",
+    "name": "Person",
+    "fields": [
+        { "name": "firstname", "type": "string", "default": "" },
+        { "name": "lastname", "type": ["null", "string"], "default": null },
+        { "name": "age", "type": "int", "default": 18}
+        ]
+  }
