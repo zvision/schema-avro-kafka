@@ -10,7 +10,6 @@ Simple Spring Boot project using Apache Kafka with Schema Registry and Avro
 <br></br> 
 
 <strong><u>How to</u></strong>
-
 <br></br> 
 <u>Prerequisite</u>
 
@@ -28,6 +27,7 @@ Program Docker is running in the system.
 POST: 
 - curl -X POST -d "{\"firstname\": \"Karl\",\"lastname\": \"Nilsson\", \"age\": 23}" -H "Content-Type: application/json" http://localhost:8181/event
 - curl -X POST -d "{\"firstname\": \"Karl\",\"lastname\": \"Nilssn\" }" -H "Content-Type: application/json" http://localhost:8181/event
+- curl -X POST -d "{\"firstname\": \"Karl\", \"age\": 23}" -H "Content-Type: application/json" http://localhost:8181/event
 - curl -X POST -d "{\"firstname\": \"Karl\" }" -H "Content-Type: application/json" http://localhost:8181/event
 
 <br></br> 
