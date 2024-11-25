@@ -32,3 +32,7 @@ POST:
 
 <br></br> 
 
+<strong><u>Confluent control center</u></strong>
+
+
+To see control center navigate to http://localhost:9021/clusters
